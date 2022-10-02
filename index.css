@@ -1,0 +1,33 @@
+/* Write your code here. */
+.cricket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  padding-right: 10px;
+}
+.ipl {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+.rcb {
+  height: 200px;
+  width: 50%;
+}
+.heading {
+  color: white;
+}
+@media (max-width: 576px) {
+  .rcb {
+    height: 500px;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .rcb {
+    height: 200px;
+    width: 50%;
+  }
+}
